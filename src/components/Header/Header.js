@@ -19,15 +19,14 @@ const Header = ({ setOpen }) => {
 							</h1>
 
 						</Link>
-						<a
-							role="button"
+						<button
 							onClick={toggleBurgerMenu}
 							className="navbar-burger"
 							data-target="navbarMenuHeroB">
 							<span></span>
 							<span></span>
 							<span></span>
-						</a>
+						</button>
 					</div>
 					<div id="navbarMenuHeroB is-active" className="navbar-menu">
 						<div className="navbar-end">
