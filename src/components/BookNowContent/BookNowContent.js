@@ -22,9 +22,9 @@ const BookNowContent = ({ item }) => {
 				<img src={item.src} alt={item.alt} />
 			</a>
 			<div className={bDivStyle}>
-				<button className="button is-info">
+				<a href={item.href} className="button is-info">
 					{item.type} <FaCalendar className="ml-3" />
-				</button>
+				</a>
 			</div>
 		</div>
 	);

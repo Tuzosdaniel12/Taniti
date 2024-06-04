@@ -22,7 +22,7 @@ const HeaderBody = () => {
 								About Us
 							</Link>
 							<Link
-								to="/book"
+								to="/book-now"
 								class="button is-info is-right-button">
 								Book Now!
 							</Link>

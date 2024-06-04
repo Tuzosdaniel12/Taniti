@@ -32,7 +32,7 @@ export default function Footer({ setOpen }) {
 					</div>
 					<div class="column">
 						<div className="pt-3 is-flex is-flex-direction-column">
-							<p className="title is-5">Taini</p>
+							<p className="title is-5">TANITI</p>
 							<Link
 								href="https://visit-taini.rescuegroups.org/"
 								className="mb-2">
@@ -58,6 +58,9 @@ export default function Footer({ setOpen }) {
 									<FaTwitter />
 								</Link>
 							</div>
+							<a href="https://unsplash.com">
+								Power by: unsplash
+							</a>
 						</div>
 					</div>
 
@@ -70,7 +73,7 @@ export default function Footer({ setOpen }) {
 							nostrum tempore sequi accusamus neque dicta
 							recusandae? Eaque, ex?
 						</p>
-						<p>Copyright 2022</p>
+						<h5>Privacy Policy</h5>
 					</div>
 				</div>
 			</div>

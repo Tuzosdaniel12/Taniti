@@ -14,7 +14,7 @@ const MainContent = ({ children, title, setOpen }) => {
 			<div className="container">
 				{isSmallScreenSize ? (
 					<>
-						<div className="title is-4 has-text-info is-bold is-main-title-small">
+						<div className="title is-4 has-text-info is-bold  is-main-title-small">
 							<h1>{title}</h1>
 						</div>
 						<div>{children}</div>
@@ -40,7 +40,7 @@ const MainContent = ({ children, title, setOpen }) => {
 					<Link to="/things-to-do" class="button is-info mb-1">
 						Things To Do
 					</Link>
-					<Link to="/book" class="button is-info mb-1">
+					<Link to="/book-now" class="button is-info mb-1">
 						Book Now!
 					</Link>
 					<button
