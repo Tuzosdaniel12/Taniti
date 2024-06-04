@@ -18,15 +18,12 @@ const AboutUs = () => {
 				<Header setOpen={handleOpen} />
 				<MainContent title="About Us" setOpen={handleOpen}>
 					<p className="is-about-us">
-						Taniti is a small, tropical island in the Pacific. While
+						Taniti is a small and tropical island in the Pacific. While
 						the island has an area of less than 500 square miles,
 						the terrain is varied and includes both sandy and rocky
-						beaches, a small but safe harbor, lush tropical
-						rainforests, and a mountainous interior that includes a
-						small, active volcano. Taniti has an indigenous
-						population of about 20,000. Until a recent increase in
-						tourism, most the Tanitian economy was dominated by
-						fishing or agriculture.
+						beaches. Taniti has a small but safe harbor. Visit
+						Taniti to enjoy the beaches, explore the rain forest,
+						and visit active the volcano. Visit Taniti and enjoy our paradise!
 					</p>
 				</MainContent>
 			</div>
