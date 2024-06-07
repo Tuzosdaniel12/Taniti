@@ -15,7 +15,12 @@ export default function Footer({ setOpen }) {
 								<Link to="/about-us">• About Us</Link>
 							</li>
 							<li>
-								<Link to="/things-to-do">• Accommodations</Link>
+								<Link to="/Accommodations">
+									• Accommodations
+								</Link>
+							</li>
+							<li>
+								<Link to="/things-to-do">• Things To Do</Link>
 							</li>
 							<li>
 								<Link to="/book-now">• Book</Link>
@@ -32,11 +37,10 @@ export default function Footer({ setOpen }) {
 					</div>
 					<div class="column">
 						<div className="pt-3 is-flex is-flex-direction-column">
-							<p className="title is-5">TANITI</p>
 							<Link
-								href="https://visit-taini.rescuegroups.org/"
+								href="https://665e62ecc42ff6000824869f--dsg-taniti.netlify.app/"
 								className="mb-2">
-								https://visit-taini.rescuegroups.org/
+								Visit-Taini
 							</Link>
 
 							<Link href="tel:(123)456-7890" className="mb-3">
@@ -58,22 +62,23 @@ export default function Footer({ setOpen }) {
 									<FaTwitter />
 								</Link>
 							</div>
-							<a href="https://unsplash.com">
-								Power by: unsplash
-							</a>
 						</div>
 					</div>
 
 					<div class="column">
-						<h5>Privacy Policy</h5>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Illo commodi mollitia eligendi quidem.
-							Inventore, sint. Rerum quas in odit vitae, assumenda
-							nostrum tempore sequi accusamus neque dicta
-							recusandae? Eaque, ex?
-						</p>
-						<h5>Privacy Policy</h5>
+						<ul>
+							<li>
+								<a href="https://unsplash.com">
+									• Power by: unsplash
+								</a>
+							</li>
+							<li>
+								<a href="https://665e62ecc42ff6000824869f--dsg-taniti.netlify.app/">
+									{" "}
+									• Private Policy
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
